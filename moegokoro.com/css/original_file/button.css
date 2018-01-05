@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+#groval_nav{
+	width: 210px;
+	height: auto;
+} /* サイドバー内の縦横の幅を定義します。 */
+.menu_index_background{
+	background-color: #b5b5b5;
+	border: 0px;
+	border-radius: 3px;
+}/* ボタンジャンルを表示するボックス */
+.menu_index_title{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+}/* ボタンジャンルを表示するボックス内の文字向け */
+.lists{
+	width: 210px;
+	height: 80px;
+	margin: 1px 0px 1px 0px;
+	border-radius: 3px;
+	-webkit-transition: background-color 0.5s ease-out;
+	-moz-transition:  background-color 0.5s ease-out;
+	-ms-transition: background-color 0.5s ease-out;
+} /* メニューボタンの全体の色を定義する */
+
+/* 			グローバルナビのトップについて 			*/
+#nav_li{
+	background-color: #98ff5c;
+}/* ボタン通常時 */
+#nav_li_this{
+	background-color: #ff8ef6;
+}/* 現在アクセスしている時 */
+#nav_li:hover{
+	background-color: #ffbeed;
+}/* ホバー中 */
+#nav_li:active{
+	background-color: #b14a94;
+}/* 押されている時 */
+
+/*			グローバルナビの萌え心mixiページ			*/
+#mixi{
+	background-color: #ffda07;
+}
+#mixi:hover{
+	background-color: #dca631;
+}
+#mixi:active{
+	background-color: #b48714;
+}
+
+/* 			グローバルナビの俺嫁ナイトmixiページ 			*/
+#oreyome_night{
+	background-color: #e1ff00;
+	background-image: linear-gradient(right , rgb(10,255,235) 0%, rgb(92,255,168) 12%, rgb(247,255,130) 46%, rgb(255,255,61) 72%, rgb(255,230,66) 84%, rgb(255,177,41) 100%);
+	background-image: -o-linear-gradient(right , rgb(10,255,235) 0%, rgb(92,255,168) 12%, rgb(247,255,130) 46%, rgb(255,255,61) 72%, rgb(255,230,66) 84%, rgb(255,177,41) 100%);
+	background-image: -moz-linear-gradient(right , rgb(10,255,235) 0%, rgb(92,255,168) 12%, rgb(247,255,130) 46%, rgb(255,255,61) 72%, rgb(255,230,66) 84%, rgb(255,177,41) 100%);
+	background-image: -webkit-linear-gradient(right , rgb(10,255,235) 0%, rgb(92,255,168) 12%, rgb(247,255,130) 46%, rgb(255,255,61) 72%, rgb(255,230,66) 84%, rgb(255,177,41) 100%);
+	background-image: -ms-linear-gradient(right , rgb(10,255,235) 0%, rgb(92,255,168) 12%, rgb(247,255,130) 46%, rgb(255,255,61) 72%, rgb(255,230,66) 84%, rgb(255,177,41) 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		left top,
+		color-stop(0, rgb(10,255,235)),
+		color-stop(0.12, rgb(92,255,168)),
+		color-stop(0.46, rgb(247,255,130)),
+		color-stop(0.72, rgb(255,255,61)),
+		color-stop(0.84, rgb(255,230,66)),
+		color-stop(1, rgb(255,177,41))
+	);
+}
+#oreyome_night:hover{
+	background-color: #afc600;
+	background-image: linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -o-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -moz-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -webkit-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -ms-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		left top,
+		color-stop(0, rgb(8,214,197)),
+		color-stop(0.12, rgb(88,232,153)),
+		color-stop(0.46, rgb(231,237,124)),
+		color-stop(0.72, rgb(230,230,55)),
+		color-stop(0.84, rgb(227,205,59)),
+		color-stop(1, rgb(214,150,39))
+	);
+}
+#oreyome_night:active{
+	background-color: #899905;
+	background-image: linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -o-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -moz-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -webkit-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	background-image: -ms-linear-gradient(right , rgb(8,214,197) 0%, rgb(88,232,153) 12%, rgb(231,237,124) 46%, rgb(230,230,55) 72%, rgb(227,205,59) 84%, rgb(214,150,39) 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		left top,
+		color-stop(0, rgb(8,214,197)),
+		color-stop(0.12, rgb(88,232,153)),
+		color-stop(0.46, rgb(231,237,124)),
+		color-stop(0.72, rgb(230,230,55)),
+		color-stop(0.84, rgb(227,205,59)),
+		color-stop(1, rgb(214,150,39))
+	);
+}
+
+/* 			グローバルナビの花つぼみ会 			*/
+#hanatsubomi{
+	background-color: #ff7092;
+}
+#hanatsubomi:hover{
+	background-color: #e10338;
+}
+#hanatsubomi:active{
+	background-color: #d3234c;
+}
+
+/* 			メニュー内の文字のスタイル 			*/
+.nav_li_strings{
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+}/* ボタン内の文字のスタイル全般 */
+.nav_li_strings h1{
+	font-size: 28px;
+	line-height: 50px;
+}/* ボタン内の文字のスタイルh1 */
+.nav_li_strings p{
+	font-size: 18px;
+	line-height: 20px;
+}/* ボタン内の文字のスタイルp */
+.nav_li_strings_2{
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 2px 2px 1px #dadada;
+}/* リンクボタン内の文字のスタイル全般 　無印との違いは影のあるなし*/
+.nav_li_strings_2 h1{
+	font-size: 28px;
+	line-height: 50px;
+}/* ボタン内の文字のスタイルh1 */
+.nav_li_strings_2 p{
+	font-size: 18px;
+	line-height: 20px;
+}/* ボタン内の文字のスタイルp */
+
+/* 			メール送信用のボタン			 */
+#send_mail{
+	width: 525px;
+	height: 65px;
+	background-color: #49fff0;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	padding: 7px;
+	box-shadow: 0px 1px 2px #a8a8a8;
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition:  background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+}
+#send_mail:hover{
+	width: 525px;
+	height: 65px;
+	background-color: #33aca2;
+	background-image: linear-gradient(bottom, rgb(15,255,247) 0%, rgb(3,58,255) 79%);
+	background-image: -o-linear-gradient(bottom, rgb(15,255,247) 0%, rgb(3,58,255) 79%);
+	background-image: -moz-linear-gradient(bottom, rgb(15,255,247) 0%, rgb(3,58,255) 79%);
+	background-image: -webkit-linear-gradient(bottom, rgb(15,255,247) 0%, rgb(3,58,255) 79%);
+	background-image: -ms-linear-gradient(bottom, rgb(15,255,247) 0%, rgb(3,58,255) 79%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(15,255,247)),
+		color-stop(0.79, rgb(3,58,255))
+	);
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	padding: 7px;
+}
+#send_mail h2{
+	font-size: 26px;
+	font-family: sans-serif;
+}
+#send_mail p{
+	font-size: 18px;
+	font-family: sans-serif;
+	margin-top: 3px;
+}

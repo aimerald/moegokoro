@@ -1,0 +1,33 @@
+.modal{
+		position: fixed;
+		top: 133px;
+		z-index: 100;
+		width: 540px;
+		height: auto;
+		min-height: 140px;
+		padding: 10px;
+		background: white;
+		border-radius: 3px;
+		box-shadow: 0px 0px 5px black;
+		display: none;
+	}
+	.modal .modal_image{
+		width: 100%;
+		height: auto;
+		border-radius: 5px;
+	}
+	.modal .modal_title{
+		font-size: 30px;
+		color: black;
+		font-family: 'Parisienne', 'cursive';
+		text-align: center;
+	}
+	.modal_close{
+		font-size: 12px;
+		color: red;
+		margin: 5px 0px 0px 10px;
+		cursor: pointer;
+	}
+	.modal_close:hover{
+		color: #720000;
+	}

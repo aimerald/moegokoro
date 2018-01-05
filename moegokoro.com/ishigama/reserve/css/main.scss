@@ -1,0 +1,140 @@
+
+$light: #ffe58c;
+
+@mixin form_property{
+	width: 90%;
+	height: 20px;
+	padding: 1%;
+	margin: 0% 0% 5% 0%;
+	border: 3px solid white;
+	border-radius: 18px;
+	font-size: 15px;
+	outline: none;
+	
+	&:focus{
+		border: 3px solid #ffcb6b;
+	}
+}
+
+.full_black{
+	width: 100%;
+	height: 100%;
+	background: black;
+	color: white;
+	
+	.reserve_contianer{
+		width: 1024px;
+		height: auto;
+		margin: 70px auto;
+		padding: 30px 0px;
+		
+		.reserve{
+			width: 80%;
+			height: auto;
+			margin: 0% 10%;
+			color: gray;
+			font-family: sans-serif;
+			
+			.title{
+				font-size: 20px;
+				margin: 10px;
+				color: #806533;
+				border-bottom: 2px solid #ffa700;
+			}
+			.description_container{
+				width: 96%;
+				height: auto;
+				padding: 2%;
+				border-bottom: 1px dotted orange;
+				border-right: 1px dotted orange;
+				box-shadow: 1px 1px 1px orange;
+				
+				.w{
+					font-size: 14px;
+					font-weight: 100;
+					font-family: sans-serif;
+					margin: 5px;
+				}
+			}
+			
+			.reserve_tab{
+				width: 100%;
+				height: 40px;
+				text-align: center;
+				
+				.tab{
+					width: 48%;
+					text-align: center;
+					font-size: 16px;
+					color: #ffa700;
+					float: left;
+					padding: 6.66px 0px;
+					cursor: pointer;
+					//border: 1px solid gray;
+					color: white;
+					background: orange;
+					border-radius: 10px;
+					margin: 0px 1%;
+					
+					&:hover{
+						color: white;
+						background: $light;
+					}
+				}
+			}
+			
+			.information{
+				width: 100%;
+				height: auto;
+				border: 4px double orange;
+				text-align: center;
+				display: none;
+				
+				.slide_show{
+					width: 100%;
+					height: auto;
+					background: black;
+					border: none;
+					
+					.slides{
+						.image{
+							width: 90%;
+							height: auto;
+							margin: 5%;
+							border: 10px;
+						}
+					}
+				}
+				
+				.form_container{
+					width: 80%;
+					height: auto;
+					margin: 10%;
+					
+					form{
+						
+						.label{
+							color: white;
+						}
+						.round{
+							width: 80px;
+							height: auto;
+							border-radius: 100px;
+						}
+						.go_left{
+							text-align: left;
+							padding: 0px 0% 5% 5%;
+						}
+						.text{
+							@include form_property;
+							height: 100px;
+						}
+						.input{
+							@include form_property;
+						}
+					}
+				}
+			}
+		}	
+	}
+}

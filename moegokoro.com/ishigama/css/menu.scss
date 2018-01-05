@@ -1,0 +1,56 @@
+.title_link{
+	color: white;
+}
+
+.course{
+	width: 100%;
+/* 	min-height: 380px; */
+	height: auto;
+/* 	background: #ff6a6a; */
+	margin: 0px 0px -3px 0px;
+	overflow: hidden;
+	position: relative;
+	
+	.image{
+		width: 100%;
+		height: auto;
+	}
+}
+
+#ordble{
+	background-image: url("../menu/images/image1.jpg");
+	background-size: cover;
+	
+	.order_description{
+		width: 370px;
+		height: auto;
+		min-height: 200px;
+		background: white;
+		opacity: 0.77;
+		padding: 10px;
+		position: absolute;
+		top: 80px;
+		right: 0px;
+		
+		.image_title{
+			color: black;
+			font-size: 22px;
+			text-align: center;
+		}
+		.image_description{
+			font-size: 14px;
+			color: black;
+			margin: 3.33px;
+		}
+	}	
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	//background: #c6c6c6;
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	font-family: 'Qwigley', cursive;
+}

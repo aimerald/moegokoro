@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#afi_label{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: gray;
+}
+.afi_bannar{
+	margin-left: 20px;
+}
+#naturery{
+	color: #2c2cff;
+}
+.float_bannar{
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	z-index: 20;
+/* 	display: none; */
+}
+.float_afi_link{
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #f0f0f0;
+	box-shadow: 1px 1px 5px #f0f0f0;
+	border-radius: 3px;
+}
+.afi_font{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.afi_img{
+	border-radius: 5px;
+}
+
+@media all and (max-width:1340px){
+	.float_bannar{
+		display: none;
+	}
+}

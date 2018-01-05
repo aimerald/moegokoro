@@ -1,0 +1,157 @@
+@media all and (max-width: 760px){
+	/* Header */
+	header{
+		width: 100%;
+		height: 50px;
+		background: black;
+		box-shadow: 0px 1px 4px #b1bcff;
+		position: fixed;
+		top: -200px;
+		left: 0px;
+		z-index: 10;
+		
+		h1{
+			width: 50px;
+			height: auto;
+			position: absolute;
+			top: 3px;
+			left: 3px;
+			
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}
+		
+		nav{
+			width: auto;
+			height: auto;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			
+			ul{
+				list-style: none;
+				
+				li{
+					float: left;
+					margin: 20px 10px 0px 10px;
+					
+					a{
+						color: white;
+						font-family: serif;
+						font-size: 15px;
+						text-decoration: none;
+						
+					}
+					a:hover{
+						color: #5085ff;
+					}
+				}
+			}
+		}
+	}
+	
+	section.container{
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		z-index: 5;
+		
+		
+		#productName{
+			color: white;
+			font-size: 40px;
+			font-family: serif;
+			position: absolute;
+			top: 100px;
+			left: 0px;
+			z-index: 15;
+			opacity: 0;
+		}
+		
+		.product{
+			width: 100%;
+			height: 600px;
+			overflow: hidden;
+			background: black;
+			
+			.backImage{
+				width: 100%;
+				position: absolute;
+				z-index: 6;
+			}
+		}
+		
+		.product_has_bottom{
+			width: 100%;
+			height: 1100px;
+			overflow: hidden;
+			background: black;
+			
+			.backImage{
+				width: 100%;
+				position: absolute;
+				z-index: 6;
+			}
+			
+			.descriptionContainer{
+				width: 100%;
+				height: auto;
+				position: absolute;
+				z-index: 15;
+				margin: 20% 0px 0px 10%;
+				font-family: serif;
+				color: white;
+				text-align: center;
+				background: -webkit-linear-gradient(#000a1c 0%, #818181 100%);
+				opacity: 0.7;
+				box-shadow: 0px 5px 5px gray;
+
+				
+				p{
+					font-size: 15px;
+					margin: 15px 0px 15px 0px;
+					text-shadow: 1px 1px 2px #585800;
+				}
+			}
+			
+			.description_bottom_container{
+				width: 100%;
+				height: auto;
+				position: absolute;
+				color: white;
+				z-index: 6;
+				margin-top: 50%;
+				text-align: center;
+				background: -webkit-linear-gradient(#000a1c 0%, #818181 100%);
+				opacity: 0.7;
+				box-shadow: 0px 5px 5px gray;
+				
+				p{
+					font-size: 20px;
+					font-family: serif;
+					margin: 30px 0px 30px 0px;
+					text-shadow: 2px 2px 2px #585800;
+				}
+			}
+		}
+	}
+	
+	/* Footer */
+	footer{
+		width: 100%;
+		height: auto;
+		background: black;
+		text-align: center;
+		color: white;
+		font-family: serif;
+		
+		address{
+			color: white;
+			font-family: serif;
+		}
+	}
